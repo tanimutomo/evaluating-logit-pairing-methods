@@ -1,9 +1,9 @@
 #!/bin/bash
 
 dataset='mnist'
-data_dir='/tmp'
-save_dir='/tmp'
-log_dir='/tmp'
+data_dir='ckpt/data'
+save_dir='ckpt/save'
+log_dir='ckpt/log'
 epochs=100
 
 python train.py \
