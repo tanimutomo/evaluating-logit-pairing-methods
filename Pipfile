@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow-gpu = "==1.8.0"
+cleverhans = "==3.0.1"
+torch = "==0.4.0"
+torchvision = "==0.1.9"
+tqdm = "*"
+
+[requires]
+python_version = "3.5"
